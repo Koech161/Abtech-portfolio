@@ -1,0 +1,94 @@
+
+.custom-navbar {
+    background-color: #343a40;
+    padding: 1rem 0;
+}
+
+.FontAwesomeIcon {
+    color: rgb(255, 253, 253);
+}
+
+span {
+    color: white;
+}
+
+.brand-name {
+    font-family: 'Pacifico', cursive;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #fff;
+    margin-left: 20px;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.brand-name:hover {
+    color: #17a2b8;
+}
+
+.navbar-toggler-icon {
+    background-color: #fdf7f7;
+}
+
+.nav-link {
+    color: #fff9f9;
+   
+    display: flex;
+    align-items: center;
+    transition: color 0.3s;
+    float: left;
+    justify-content: center;
+    padding: 5px 10px;
+    
+ 
+}
+
+.nav-link span {
+    
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 20px;
+    float: left;
+}
+
+.nav-link:hover,
+.ho:hover,
+.nav-link:hover span {
+    color: #17a2b8 !important;
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+.navbar-toggler:focus {
+    outline: none;
+}
+
+.ml-auto {
+    inline-size: none;
+}
+
+/* Font Awesome Icons */
+.fa-lg {
+    margin-right: 5px;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .navbar-nav {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .navbar-toggler {
+        margin-bottom: 10px;
+    }
+
+    .ml-auto {
+        margin-left: 0;
+        text-align: center;
+        margin-top: 10px;
+    }
+}
